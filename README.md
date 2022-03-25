@@ -20,6 +20,6 @@ Reference: https://chocolatey.org/install#individual
 
 ### Poetry
 
- * Install Poetry (https://python-poetry.org/docs/)
- *  * Add `%APPDATA%\Python\Scripts` to PATH
+https://python-poetry.org/docs/
+ * `(Invoke-WebRequest -Uri https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py -UseBasicParsing).Content | python -`
  * `poetry config virtualenvs.in-project true`
